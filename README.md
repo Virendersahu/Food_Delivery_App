@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+Swiggy Clone
+Welcome to the Swiggy Clone repository! This project is a full-stack web application built with React.js, Redux Toolkit, Tailwind CSS, and integrates with Swiggy's live APIs to provide a Swiggy-like experience.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Screenshots
+Home Page
+Home Page
 
-## Available Scripts
+Restaurant Page
+Restaurant Page
 
-In the project directory, you can run:
+Restaurant Categories
+Restaurant Categories
 
-### `npm start`
+Location
+Location
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Cart Page
+Cart Page
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Empty Cart
+Empty Cart
 
-### `npm test`
+Unserviceable Location
+Unserviceable Location
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Features
+User Authentication: User authentication with restricted routing ensures that users can access only the appropriate content.
 
-### `npm run build`
+Real-time Search: Real-time search functionality allows users to find specific restaurants quickly.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Restaurant Filters: Apply filters to sort and find restaurants based on your preferences.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Location Selection: Users can change their location, and the app fetches restaurants based on the selected location.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Cart Management: The shopping cart is tied to a specific restaurant, enabling a seamless ordering experience.
 
-### `npm run eject`
+Payment Gateway Integration: Integration with a payment gateway for a convenient and secure payment process.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Lazy Loading: Optimize performance with lazy loading to load resources only when needed.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Testing: The project includes integration tests and unit tests with 100% code coverage.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Tech Stack
+Frontend: React.js, Redux Toolkit, React Router, Axios, Tailwind CSS
+Backend: Swiggy Live APIs
+Authentication: JWT (JSON Web Tokens)
+Testing: React Testing Library, Jest
+Deployment: Netlify (Live/Prod Link: FoodyMonk)
+Setup
+To run this project locally, follow these steps:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Clone the repository:
 
-## Learn More
+git clone https://github.com/your-username/Food_Delivery_App.git
+cd swiggy-clone
+Install dependencies:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+npm install
+Set up environment variables: Create a .env file and add your API keys or credentials.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Start the development server:
 
-### Code Splitting
+npm start
+Open your browser and navigate to http://localhost:1234 to access the application.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Note:
+This project is a clone application created for learning and demonstration purposes. It is not associated with Swiggy and is not intended for commercial use.
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Happy coding!
