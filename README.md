@@ -1,27 +1,17 @@
-Swiggy Clone
+Food Delivery App
 Welcome to the Swiggy Clone repository! This project is a full-stack web application built with React.js, Redux Toolkit, Tailwind CSS, and integrates with Swiggy's live APIs to provide a Swiggy-like experience.
 
 Screenshots
-Home Page
-Home Page
+![image](https://github.com/user-attachments/assets/0f343589-c2ba-476e-a0c9-e5ba9c0a45f4)
+
 
 Restaurant Page
-Restaurant Page
+![image](https://github.com/user-attachments/assets/897bdbcd-0bf8-48b3-8f11-b5c892753d2f)
+
 
 Restaurant Categories
-Restaurant Categories
+![image](https://github.com/user-attachments/assets/18e2aac8-34df-4e41-a8ad-9a98a7a63122)
 
-Location
-Location
-
-Cart Page
-Cart Page
-
-Empty Cart
-Empty Cart
-
-Unserviceable Location
-Unserviceable Location
 
 Features
 User Authentication: User authentication with restricted routing ensures that users can access only the appropriate content.
